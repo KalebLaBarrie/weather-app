@@ -1,0 +1,41 @@
+/* html {
+  height: 100vh;
+} */
+
+body {
+  background-color: #0891b2;
+  font-family: 'Young Serif', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #ecfeff;
+}
+
+.container {
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* margin-top: 8rem; */
+}
+
+#weather-form {
+  width: 400px;
+  background-color: #083344;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.city-name {
+}
+
+.city-div {
+  display: none;
+}
+
+.city-div.show {
+  display: block;
+}

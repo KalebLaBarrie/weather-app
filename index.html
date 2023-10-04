@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="city-div">
+        <h1 class="city-name">Jacksonville</h1>
+        <img id="weather-img" src="#" alt="Picture of current weather" />
+      </div>
+      <form id="weather-form">
+        <div>
+          <label for="location">Location: </label>
+          <input type="text" id="location" />
+          <input id="submit-btn" type="submit" value="Submit" />
+          <div>
+            <h3>Degrees in Celsius: <span id="degreesCelsius"></span></h3>
+            <h3>Degrees in Fahrenheit: <span id="degreesFahrenheit"></span></h3>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
